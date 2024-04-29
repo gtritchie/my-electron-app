@@ -1,11 +1,11 @@
 {
   "name": "my-electron-app",
-  "version": "1.0.0",
+  "version": "2024.07.0-hourly+56.pro14",
   "description": "Simple Electron App",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package": "npx @electron/packager .",
+    "package": "npx @electron/packager . --overwrite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gary Ritchie",
